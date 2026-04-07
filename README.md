@@ -101,6 +101,9 @@ Completed as a functional automation system with real-world application across m
 
 ## System Visualization
 
+### Workflow Design (Miro)
+![Miro Diagram](miro-workflow.png)
+
 ### Google Form (Lead Capture)
 ![Google Form](google-form.png)
 
