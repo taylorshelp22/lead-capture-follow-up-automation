@@ -111,7 +111,7 @@ Completed as a functional automation system with real-world application across m
 ![Processed Leads](processed-leads-sheet.png)
 
 ### Make Scenario (Automation Workflow)
-![Make Workflow](make-workflow.png)
+![Make Workflow](make-workflow .png)
 
 ---
 
