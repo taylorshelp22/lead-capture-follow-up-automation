@@ -96,3 +96,22 @@ Intent: {{1.`4`}}
 ## Project Status
 
 Completed as a functional automation system with real-world application across multiple business use cases.
+
+---
+
+## System Visualization
+
+### Google Form (Lead Capture)
+![Google Form](google-form.png)
+
+### Raw Leads (Unprocessed Data)
+![Raw Leads](raw-leads-sheet.png)
+
+### Processed Leads (Tracking System)
+![Processed Leads](processed-leads-sheet.png)
+
+### Make Scenario (Automation Workflow)
+![Make Workflow](make-workflow.png)
+
+---
+
