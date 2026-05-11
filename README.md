@@ -10,7 +10,7 @@ While this version was initially configured for a real estate use case, the syst
 
 ---
 
-##Business Problem
+## Business Problem
 
 Many businesses collect leads but fail to respond quickly or consistently. This delay can result in lost opportunities and poor customer experience.
 
