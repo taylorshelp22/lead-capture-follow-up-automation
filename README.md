@@ -10,7 +10,7 @@ While this version was initially configured for a real estate use case, the syst
 
 ---
 
-## Problem
+##Business Problem
 
 Many businesses collect leads but fail to respond quickly or consistently. This delay can result in lost opportunities and poor customer experience.
 
@@ -31,7 +31,7 @@ This system automates the entire lead handling process:
 
 ---
 
-## Tools Used
+## Tech Stack
 
 - Google Forms (lead capture)
 - Google Sheets (data storage and tracking)
@@ -72,7 +72,7 @@ Intent: {{1.`4`}}
 
 ---
 
-## Outcome
+## Value Added
 
 - Reduces response time to new leads  
 - Prevents loss of potential clients due to delayed follow-up  
