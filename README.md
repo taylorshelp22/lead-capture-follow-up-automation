@@ -101,7 +101,7 @@ Intent: {{1.`4`}}
 ![Make Workflow Overview](images/05-make-workflow-overview.png)
 
 ### Processed Lead Automation Step
-![Processed Lead Step](images/06-make-processed-lead-step.png)
+![Processed Lead Step](images/06-make-processed-leads-step.png)
 
 ### Processed Leads Tracking Sheet
 ![Processed Leads Sheet](images/07-processed-leads-sheet.png)
