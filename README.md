@@ -99,27 +99,27 @@ Built an automated workflow that:
 
 ---
 
+### Make Workflow Overview
+
+![Make Workflow Overview](images/02-make-workflow-overview.png)
+
+---
+
 ### Google Form Lead Capture
 
-![Google Form Lead Capture](images/02-google-form-lead-capture.png)
+![Google Form Lead Capture](images/03-google-form-lead-capture.png)
 
 ---
 
 ### Raw Leads Storage Sheet
 
-![Raw Leads Storage](images/03-raw-leads-sheet.png)
+![Raw Leads Storage](images/04-raw-leads-sheet.png)
 
 ---
 
 ### Make Form Trigger Configuration
 
-![Make Form Trigger](images/04-make-form-trigger.png)
-
----
-
-### Make Workflow Overview
-
-![Make Workflow Overview](images/05-make-workflow-overview.png)
+![Make Form Trigger](images/05-make-form-trigger.png)
 
 ---
 
