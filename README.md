@@ -31,15 +31,6 @@ This system automates the entire lead handling process:
 
 ---
 
-## Tech Stack
-
-- Google Forms (lead capture)
-- Google Sheets (data storage and tracking)
-- Make (automation workflow)
-- Gmail (email notifications)
-
----
-
 ## Workflow Breakdown
 
 1. Lead submits information through Google Form  
@@ -83,6 +74,52 @@ Intent: {{1.`4`}}
 
 ---
 
+## Tech Stack
+
+- Google Forms (lead capture)
+- Google Sheets (data storage and tracking)
+- Make (automation workflow)
+- Gmail (email notifications)
+
+---
+
+## Workflow Screenshots
+
+### Workflow Architecture Diagram
+![Workflow Architecture](images/01-miro-workflow-diagram.jpg)
+
+### Google Form Lead Capture
+![Google Form Lead Capture](images/02-google-form-lead-capture.png)
+
+### Raw Leads Storage
+![Raw Leads Storage](images/03-raw-leads-sheet.png)
+
+### Make Automation Trigger
+![Make Automation Trigger](images/04-make-form-trigger.png)
+
+### Full Make Workflow Overview
+![Make Workflow Overview](images/05-make-workflow-overview.png)
+
+### Processed Lead Automation Step
+![Processed Lead Step](images/06-make-processed-lead-step.png)
+
+### Processed Leads Tracking Sheet
+![Processed Leads Sheet](images/07-processed-leads-sheet.png)
+
+### Lead Confirmation Email Configuration
+![Lead Confirmation Email](images/08-gmail-lead-confirmation-step.png)
+
+### Internal Notification Email Configuration
+![Internal Notification Email](images/09-gmail-internal-notification-step.png)
+
+### Lead Confirmation Email Output
+![Lead Confirmation Output](images/10-lead-confirmation-email-output.png)
+
+### Internal Notification Email Output
+![Internal Notification Output](images/11-internal-notification-email-output.png)
+
+---
+
 ## Future Improvements
 
 - Add CRM integration for centralized lead management  
@@ -98,23 +135,3 @@ Intent: {{1.`4`}}
 Completed as a functional automation system with real-world application across multiple business use cases.
 
 ---
-
-## System Visualization
-
-### Workflow Design (Miro)
-![Miro Diagram](miro-workflow.png)
-
-### Google Form (Lead Capture)
-![Google Form](google-form.png)
-
-### Raw Leads (Unprocessed Data)
-![Raw Leads](raw-leads-sheet.png)
-
-### Processed Leads (Tracking System)
-![Processed Leads](processed-leads-sheet.png)
-
-### Make Scenario (Automation Workflow)
-![Make Workflow](make-workflow.png)
-
----
-
