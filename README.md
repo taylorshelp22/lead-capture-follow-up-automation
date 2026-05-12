@@ -86,7 +86,7 @@ Intent: {{1.`4`}}
 ## Workflow Screenshots
 
 ### Workflow Architecture Diagram
-![Workflow Architecture](images/01-miro-workflow-diagram.jpg)
+![Workflow Architecture](images/01-miro-workflow-diagram.png)
 
 ### Google Form Lead Capture
 ![Google Form Lead Capture](images/02-google-form-lead-capture.png)
