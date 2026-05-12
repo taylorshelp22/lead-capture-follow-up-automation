@@ -113,7 +113,7 @@ Intent: {{1.`4`}}
 ![Internal Notification Email](images/09-gmail-internal-notification-step.png)
 
 ### Lead Confirmation Email Output
-![Lead Confirmation Output](images/10-lead-confirmation-email-output.png)
+![Lead Confirmation Output](images/10-lead-confirmation-email-.png)
 
 ### Internal Notification Email Output
 ![Internal Notification Output](images/11-internal-notification-email-output.png)
