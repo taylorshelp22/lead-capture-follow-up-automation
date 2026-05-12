@@ -1,8 +1,10 @@
-# Automated Lead Capture and Follow-Up System
+# LEAD CAPTURE & FOLLOW-UP AUTOMATION SYSTEM
 
 An AI-powered automation workflow that captures incoming leads and automates follow-up communication to help businesses improve response consistency and reduce missed sales opportunities.
 
 This project demonstrates how AI automation can streamline lead management workflows by transforming customer inquiries into organized, actionable sales processes with minimal manual intervention.
+
+---
 
 ## Overview
 
@@ -16,126 +18,135 @@ The workflow reduces manual administrative work while improving response consist
 
 ## Business Problem
 
-Many businesses collect leads but fail to respond quickly or consistently. This delay can result in lost opportunities and poor customer experience.
+Businesses that depend on inbound customer inquiries often struggle to manage leads quickly and consistently.
 
-Additionally, lead data is often overwritten or disorganized, making it difficult to track, manage, and follow up effectively.
+This creates several operational challenges:
+
+- Delayed responses to new inquiries
+- Missed follow-up opportunities
+- Disorganized lead tracking
+- Inconsistent communication workflows
+- Manual data entry and administrative tasks
+- Difficulty scaling lead management processes
+
+A scalable automated solution was needed to capture leads, organize customer information, and automate follow-up communication efficiently.
 
 ---
 
 ## Solution
 
-This system automates the entire lead handling process:
+Built an automated workflow that:
 
-1. Collect lead information through a Google Form  
-2. Store raw lead data in a Google Sheets tab (unchanged for data integrity)  
-3. Monitor new submissions using Make  
-4. Copy new leads into a “processed leads” tab for tracking  
-5. Send a confirmation email to the lead acknowledging receipt and setting expectations  
-6. Send an internal notification email to the business or service provider with full lead details  
+- Captures incoming lead submissions automatically
+- Organizes customer information into structured records
+- Processes lead data through Zapier automation
+- Uses ChatGPT to generate follow-up messaging
+- Sends automated follow-up emails through Gmail
+- Stores lead information for ongoing tracking and management
+- Reduces manual administrative workload
+- Improves response consistency and lead engagement
 
 ---
 
 ## Workflow Breakdown
 
-1. Lead submits information through Google Form  
-2. Data is stored in a raw data tab in Google Sheets (preserved for accuracy)  
-3. Make detects a new row submission  
-4. Lead data is copied to a processed leads tab to track handled inquiries  
+1. A customer submits an inquiry through a lead capture form
 
-5. Confirmation email is sent to the lead:
+2. Zapier automatically captures and processes the lead information
 
-Hi {{1.`1`}},
+3. Customer data is organized into structured records
 
-Thank you for reaching out. We’ve received your request and a representative will be contacting you shortly.
+4. ChatGPT generates personalized follow-up messaging
 
-Based on your submission, we’ll be reaching out to discuss your goals and how we can best assist you moving forward.
+5. Gmail automatically sends follow-up communication to the lead
 
-If you have any immediate questions, feel free to reply to this email.
-
-We look forward to speaking with you.
-
-Best regards,
-
-6. Internal notification email is sent to the business or service provider:
-
-New lead submitted. Details below:
-
-Name: {{1.`1`}}  
-Email: {{1.`2`}}  
-Phone: {{1.`3`}}  
-Intent: {{1.`4`}}  
+6. Lead information is stored for ongoing tracking and future outreach
 
 ---
 
 ## Value Added
 
-- Reduces response time to new leads  
-- Prevents loss of potential clients due to delayed follow-up  
-- Maintains original raw data for accuracy and future reference  
-- Creates a clear system for tracking processed leads  
-- Improves organization and follow-up consistency  
-- Adaptable across multiple industries beyond the initial real estate use case  
+- Automates lead intake and follow-up workflows
+- Improves lead response speed and consistency
+- Reduces missed customer opportunities
+- Organizes lead information into structured records
+- Minimizes manual administrative tasks
+- Demonstrates practical AI-powered workflow automation
 
 ---
 
 ## Tech Stack
 
-- Google Forms (lead capture)
-- Google Sheets (data storage and tracking)
-- Make (automation workflow)
-- Gmail (email notifications)
+- Zapier
+- ChatGPT API
+- Gmail
+- Google Sheets
+- Webhooks
+- JSON Parsing
+- Prompt Engineering
+- Workflow Automation
+- Lead Management Automation
+- No-Code Automation
 
 ---
 
 ## Workflow Screenshots
 
 ### Workflow Architecture Diagram
-![Workflow Architecture](images/01-miro-workflow-diagram.png)
 
-### Google Form Lead Capture
-![Google Form Lead Capture](images/02-google-form-lead-capture.png)
+_Add workflow architecture diagram screenshot here_
 
-### Raw Leads Storage
-![Raw Leads Storage](images/03-raw-leads-sheet.png)
+---
 
-### Make Automation Trigger
-![Make Automation Trigger](images/04-make-form-trigger.png)
+### Zapier Workflow Overview
 
-### Full Make Workflow Overview
-![Make Workflow Overview](images/05-make-workflow-overview.png)
+_Add Zapier workflow screenshot here_
 
-### Processed Lead Automation Step
-![Processed Lead Step](images/06-make-processed-leads-step.png)
+---
 
-### Processed Leads Tracking Sheet
-![Processed Leads Sheet](images/07-processed-leads-sheet.png)
+### Lead Capture Form Submission
 
-### Lead Confirmation Email Configuration
-![Lead Confirmation Email](images/08-gmail-lead-confirmation-step.png)
+_Add lead capture form screenshot here_
 
-### Internal Notification Email Configuration
-![Internal Notification Email](images/09-gmail-internal-notification-step.png)
+---
 
-### Lead Confirmation Email Output
-![Lead Confirmation Output](images/10-lead-confirmation-email.png)
+### ChatGPT Follow-Up Generation Step
 
-### Internal Notification Email Output
-![Internal Notification Output](images/11-internal-notification-email-output.png)
+_Add ChatGPT step screenshot here_
+
+---
+
+### Gmail Follow-Up Email Step
+
+_Add Gmail automation screenshot here_
+
+---
+
+### Google Sheets Lead Tracking
+
+_Add Google Sheets screenshot here_
+
+---
+
+### Automated Follow-Up Email Example
+
+_Add automated email example screenshot here_
 
 ---
 
 ## Future Improvements
 
-- Add CRM integration for centralized lead management  
-- Implement lead scoring or prioritization logic  
-- Add SMS notifications for faster response times  
-- Track response rates and conversion metrics  
-- Build a dashboard for lead analytics and performance tracking  
+Potential future enhancements include:
+
+- CRM integration
+- SMS follow-up automation
+- AI-powered lead scoring
+- Multi-step nurture campaigns
+- Slack sales notifications
+- Appointment booking integration
 
 ---
 
 ## Project Status
 
-Completed as a functional automation system with real-world application across multiple business use cases.
-
----
+Completed as a functional AI-powered automation workflow for lead capture, customer follow-up, and automated sales communication.
