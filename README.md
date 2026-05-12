@@ -1,12 +1,16 @@
 # Automated Lead Capture and Follow-Up System
 
+An AI-powered automation workflow that captures incoming leads and automates follow-up communication to help businesses improve response consistency and reduce missed sales opportunities.
+
+This project demonstrates how AI automation can streamline lead management workflows by transforming customer inquiries into organized, actionable sales processes with minimal manual intervention.
+
 ## Overview
 
-This project is an automated workflow designed to capture new leads, organize them, and ensure immediate follow-up communication.
+Businesses that rely on inbound leads often struggle with delayed response times, inconsistent follow-up communication, and disorganized customer data. As lead volume increases, manually managing inquiries becomes inefficient and increases the risk of missed sales opportunities.
 
-It helps reduce response time for new inquiries while maintaining clean, structured lead data for ongoing use.
+This automation system helps businesses streamline lead management by capturing incoming inquiries, organizing lead information automatically, and triggering immediate follow-up communication through automated workflows.
 
-While this version was initially configured for a real estate use case, the system is fully adaptable and can be applied across multiple industries including service-based businesses, consulting, and local businesses that rely on lead intake and timely response.
+The workflow reduces manual administrative work while improving response consistency, lead organization, and operational efficiency across customer intake processes.
 
 ---
 
