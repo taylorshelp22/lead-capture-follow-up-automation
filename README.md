@@ -39,9 +39,9 @@ Built an automated workflow that:
 
 - Captures incoming lead submissions automatically
 - Organizes customer information into structured records
-- Processes lead data through Zapier automation
-- Uses ChatGPT to generate follow-up messaging
-- Sends automated follow-up emails through Gmail
+- Processes lead data through Make automation
+- Sends automated customer confirmation emails
+- Sends internal business lead notifications
 - Stores lead information for ongoing tracking and management
 - Reduces manual administrative workload
 - Improves response consistency and lead engagement
@@ -50,17 +50,19 @@ Built an automated workflow that:
 
 ## Workflow Breakdown
 
-1. A customer submits an inquiry through a lead capture form
+1. A customer submits an inquiry through a Google Form
 
-2. Zapier automatically captures and processes the lead information
+2. Lead data is automatically captured and stored in Google Sheets
 
-3. Customer data is organized into structured records
+3. Make monitors the spreadsheet for new lead submissions
 
-4. ChatGPT generates personalized follow-up messaging
+4. Lead information is processed and routed automatically
 
-5. Gmail automatically sends follow-up communication to the lead
+5. A customer confirmation email is sent instantly through Gmail
 
-6. Lead information is stored for ongoing tracking and future outreach
+6. An internal lead notification email is sent to the business
+
+7. Processed leads are organized for future tracking and follow-up
 
 ---
 
@@ -71,22 +73,21 @@ Built an automated workflow that:
 - Reduces missed customer opportunities
 - Organizes lead information into structured records
 - Minimizes manual administrative tasks
-- Demonstrates practical AI-powered workflow automation
+- Demonstrates practical workflow automation for small businesses
 
 ---
 
 ## Tech Stack
 
-- Zapier
-- ChatGPT API
-- Gmail
+- Make (Integromat)
+- Google Forms
 - Google Sheets
-- Webhooks
-- JSON Parsing
-- Prompt Engineering
+- Gmail
 - Workflow Automation
 - Lead Management Automation
 - No-Code Automation
+- Automated Email Routing
+- Data Processing Automation
 
 ---
 
@@ -94,43 +95,67 @@ Built an automated workflow that:
 
 ### Workflow Architecture Diagram
 
-_Add workflow architecture diagram screenshot here_
+![Workflow Architecture](images/01-miro-workflow-diagram.png)
 
 ---
 
-### Zapier Workflow Overview
+### Google Form Lead Capture
 
-_Add Zapier workflow screenshot here_
-
----
-
-### Lead Capture Form Submission
-
-_Add lead capture form screenshot here_
+![Google Form Lead Capture](images/02-google-form-lead-capture.png)
 
 ---
 
-### ChatGPT Follow-Up Generation Step
+### Raw Leads Storage Sheet
 
-_Add ChatGPT step screenshot here_
-
----
-
-### Gmail Follow-Up Email Step
-
-_Add Gmail automation screenshot here_
+![Raw Leads Storage](images/03-raw-leads-sheet.png)
 
 ---
 
-### Google Sheets Lead Tracking
+### Make Form Trigger Configuration
 
-_Add Google Sheets screenshot here_
+![Make Form Trigger](images/04-make-form-trigger.png)
 
 ---
 
-### Automated Follow-Up Email Example
+### Make Workflow Overview
 
-_Add automated email example screenshot here_
+![Make Workflow Overview](images/05-make-workflow-overview.png)
+
+---
+
+### Processed Leads Tracking Step
+
+![Processed Leads Step](images/06-make-processed-leads-step.png)
+
+---
+
+### Processed Leads Google Sheet
+
+![Processed Leads Sheet](images/07-processed-leads-sheet.png)
+
+---
+
+### Gmail Lead Confirmation Configuration
+
+![Lead Confirmation Step](images/08-gmail-lead-confirmation-step.png)
+
+---
+
+### Gmail Internal Notification Configuration
+
+![Internal Notification Step](images/09-gmail-internal-notification-step.png)
+
+---
+
+### Automated Lead Confirmation Email
+
+![Lead Confirmation Email](images/10-lead-confirmation-email.png)
+
+---
+
+### Internal Lead Notification Email
+
+![Internal Notification Email](images/11-internal-notification-email-output.png)
 
 ---
 
@@ -149,4 +174,4 @@ Potential future enhancements include:
 
 ## Project Status
 
-Completed as a functional AI-powered automation workflow for lead capture, customer follow-up, and automated sales communication.
+Completed as a functional automation workflow for lead capture, customer follow-up, internal notifications, and lead tracking management.
